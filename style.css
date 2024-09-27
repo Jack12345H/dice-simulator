@@ -1,0 +1,62 @@
+html {
+  background-color: purple;
+}
+
+body {
+  width: 500px;
+  padding: 30px 75px;
+  text-align: center;
+  background-color: #6260d2;
+  margin: 0px auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  width: 150px;
+  margin: 10px;
+  transform: rotate(0);
+  
+}
+
+#dice-display {
+  background: black;
+}
+
+#dice-display,
+#roll-history {
+  border: 2px solid purple;
+  margin: 50px;
+  padding: 25px;
+  width: 400px;
+}
+
+select {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+button {
+  padding: 15px 20px;
+  margin: 10px;
+  border: 2px solid purple;
+  background: purple;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  color: purple;
+  background: white;
+}
+
+span {
+  border: 1px solid black;
+  padding: 3px;
+  margin: 3px;
+  display: inline-block;
+}
